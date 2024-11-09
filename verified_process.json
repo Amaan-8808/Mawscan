@@ -1,0 +1,440 @@
+[
+    {
+        "process": "/usr/libexec/gdm-x-session"
+    },
+    {
+        "process": "/usr/sbin/gdm3"
+    },
+    {
+        "process": "/usr/bin/gnome-software"
+    },
+    {
+        "process": "sh"
+    },
+    {
+        "process": "/usr/lib/x86_64-linux-gnu/bamf/bamfdaemon"
+    },
+    {
+        "process": "/usr/bin/mongod"
+    },
+    {
+        "process": "fusermount3"
+    },
+    {
+        "process": "/usr/libexec/goa-daemon"
+    },
+    {
+        "process": "/usr/libexec/gnome-shell-calendar-server"
+    },
+    {
+        "process": "/usr/bin/gjs"
+    },
+    {
+        "process": "/usr/bin/touchegg"
+    },
+    {
+        "process": "/usr/local/bin/ollama"
+    },
+    {
+        "process": "/usr/libexec/goa-identity-service"
+    },
+    {
+        "process": "/usr/local/bin/ollama"
+    },
+    {
+        "process": "/usr/share/code/code"
+    },
+    {
+        "process": "/usr/bin/gnome-shell"
+    },
+    {
+        "process": "/usr/libexec/flatpak-session-helper"
+    },
+    {
+        "process": "/usr/sbin/gdm3"
+    },
+    {
+        "process": "/usr/libexec/flatpak-bwrap"
+    },
+    {
+        "process": "/usr/bin/nvidia-persistenced"
+    },
+    {
+        "process": "/usr/libexec/flatpak-dbus-proxy"
+    },
+    {
+        "process": "/usr/sbin/gdm3"
+    },
+    {
+        "process": "/usr/sbin/gdm3"
+    },
+    {
+        "process": "/usr/libexec/at-spi-bus-launcher"
+    },
+    {
+        "process": "/usr/sbin/cron"
+    },
+    {
+        "process": "/usr/sbin/kerneloops"
+    },
+    {
+        "process": "/usr/sbin/cupsd"
+    },
+    {
+        "process": "/usr/libexec/rtkit-daemon"
+    },
+    {
+        "process": "/usr/libexec/packagekitd"
+    },
+    {
+        "process": "/usr/libexec/colord"
+    },
+    {
+        "process": "/usr/bin/pipewire"
+    },
+    {
+        "process": "/usr/libexec/udisks2/udisksd"
+    },
+    {
+        "process": "/usr/libexec/gsd-rfkill"
+    },
+    {
+        "process": "/usr/libexec/gsd-datetime"
+    },
+    {
+        "process": "/usr/libexec/evolution-data-server/evolution-alarm-notify"
+    },
+    {
+        "process": "/usr/libexec/gvfsd-http"
+    },
+    {
+        "process": "/lib/systemd/systemd-udevd"
+    },
+    {
+        "process": "/usr/libexec/gsd-keyboard"
+    },
+    {
+        "process": "/usr/libexec/gnome-session-binary"
+    },
+    {
+        "process": "/usr/libexec/gvfsd-trash"
+    },
+    {
+        "process": "/usr/libexec/gvfs-goa-volume-monitor"
+    },
+    {
+        "process": "/lib/systemd/systemd-timesyncd"
+    },
+    {
+        "process": "/usr/libexec/gvfs-gphoto2-volume-monitor"
+    },
+    {
+        "process": "/usr/libexec/gvfs-afc-volume-monitor"
+    },
+    {
+        "process": "/usr/libexec/tracker-miner-fs-3"
+    },
+    {
+        "process": "/usr/libexec/ibus-engine-simple"
+    },
+    {
+        "process": "/usr/libexec/evolution-addressbook-factory"
+    },
+    {
+        "process": "/usr/libexec/xdg-document-portal"
+    },
+    {
+        "process": "/usr/libexec/gsd-power"
+    },
+    {
+        "process": "/usr/libexec/fwupd/fwupd"
+    },
+    {
+        "process": "/lib/systemd/systemd-oomd"
+    },
+    {
+        "process": "/usr/share/code/chrome_crashpad_handler"
+    },
+    {
+        "process": "/usr/sbin/rsyslogd"
+    },
+    {
+        "process": "/usr/bin/zsh"
+    },
+    {
+        "process": "/usr/sbin/ModemManager"
+    },
+    {
+        "process": "/usr/libexec/polkitd"
+    },
+    {
+        "process": "/sbin/init"
+    },
+    {
+        "process": "/usr/libexec/evolution-calendar-factory"
+    },
+    {
+        "process": "/usr/libexec/dconf-service"
+    },
+    {
+        "process": "/usr/libexec/gsd-smartcard"
+    },
+    {
+        "process": "/lib/systemd/systemd-resolved"
+    },
+    {
+        "process": "/usr/bin/pulseaudio"
+    },
+    {
+        "process": "/usr/sbin/irqbalance"
+    },
+    {
+        "process": "/usr/lib/bluetooth/bluetoothd"
+    },
+    {
+        "process": "/usr/libexec/at-spi2-registryd"
+    },
+    {
+        "process": "/usr/bin/ibus-daemon"
+    },
+    {
+        "process": "/usr/libexec/gsd-media-keys"
+    },
+    {
+        "process": "/lib/systemd/systemd-logind"
+    },
+    {
+        "process": "/usr/libexec/gsd-sound"
+    },
+    {
+        "process": "/usr/libexec/gvfsd"
+    },
+    {
+        "process": "/usr/libexec/gsd-housekeeping"
+    },
+    {
+        "process": "/usr/libexec/gvfs-mtp-volume-monitor"
+    },
+    {
+        "process": "/usr/lib/xorg/Xorg"
+    },
+    {
+        "process": "/usr/libexec/xdg-desktop-portal"
+    },
+    {
+        "process": "/lib/systemd/systemd-journald"
+    },
+    {
+        "process": "/usr/sbin/acpid"
+    },
+    {
+        "process": "/usr/libexec/ibus-x11"
+    },
+    {
+        "process": "/usr/libexec/upowerd"
+    },
+    {
+        "process": "/sbin/wpa_supplicant"
+    },
+    {
+        "process": "/usr/sbin/gdm3"
+    },
+    {
+        "process": "/usr/bin/python3"
+    },
+    {
+        "process": "/lib/systemd/systemd"
+    },
+    {
+        "process": "/usr/libexec/gvfs-udisks2-volume-monitor"
+    },
+    {
+        "process": "/usr/libexec/power-profiles-daemon"
+    },
+    {
+        "process": "/usr/libexec/gsd-wacom"
+    },
+    {
+        "process": "/usr/libexec/gsd-print-notifications"
+    },
+    {
+        "process": "/usr/lib/github-desktop/github-desktop"
+    },
+    {
+        "process": "/usr/sbin/cups-browsed"
+    },
+    {
+        "process": "/usr/libexec/ibus-portal"
+    },
+    {
+        "process": "/usr/bin/gnome-keyring-daemon"
+    },
+    {
+        "process": "/usr/libexec/xdg-desktop-portal-gnome"
+    },
+    {
+        "process": "/usr/libexec/gsd-printer"
+    },
+    {
+        "process": "/usr/libexec/gsd-color"
+    },
+    {
+        "process": "/home/aditya/.cache/gitstatus/gitstatusd-linux-x86_64"
+    },
+    {
+        "process": "/usr/libexec/xdg-desktop-portal-gtk"
+    },
+    {
+        "process": "/usr/libexec/ibus-memconf"
+    },
+    {
+        "process": "/usr/sbin/NetworkManager"
+    },
+    {
+        "process": "/usr/libexec/gsd-screensaver-proxy"
+    },
+    {
+        "process": "/usr/bin/dbus-daemon"
+    },
+    {
+        "process": "/usr/libexec/accounts-daemon"
+    },
+    {
+        "process": "/home/aditya/Documents/GitHub/mawscan/stuff/bin/python"
+    },
+    {
+        "process": "/usr/libexec/evolution-source-registry"
+    },
+    {
+        "process": "/usr/libexec/gsd-a11y-settings"
+    },
+    {
+        "process": "/usr/libexec/ibus-extension-gtk3"
+    },
+    {
+        "process": "/usr/libexec/gvfsd-metadata"
+    },
+    {
+        "process": "/usr/libexec/gvfsd-fuse"
+    },
+    {
+        "process": "/usr/libexec/gsd-xsettings"
+    },
+    {
+        "process": "/usr/libexec/switcheroo-control"
+    },
+    {
+        "process": "/usr/libexec/gsd-disk-utility-notify"
+    },
+    {
+        "process": "/usr/libexec/xdg-permission-store"
+    },
+    {
+        "process": "/usr/libexec/gnome-session-ctl"
+    },
+    {
+        "process": "/usr/bin/pipewire-media-session"
+    },
+    {
+        "process": "/usr/libexec/gsd-sharing"
+    },
+    {
+        "process": "/usr/libexec/at-spi-bus-launcher"
+    },
+    {
+        "process": "/usr/bin/touchegg"
+    },
+    {
+        "process": "/usr/sbin/cupsd"
+    },
+    {
+        "process": "/usr/libexec/gdm-x-session"
+    },
+    {
+        "process": "/usr/libexec/flatpak-dbus-proxy"
+    },
+    {
+        "process": "/usr/libexec/colord"
+    },
+    {
+        "process": "/usr/bin/mongod"
+    },
+    {
+        "process": "/usr/libexec/gsd-rfkill"
+    },
+    {
+        "process": "/usr/libexec/evolution-data-server/evolution-alarm-notify"
+    },
+    {
+        "process": "/usr/libexec/gsd-keyboard"
+    },
+    {
+        "process": "/usr/libexec/goa-identity-service"
+    },
+    {
+        "process": "/usr/libexec/gvfs-goa-volume-monitor"
+    },
+    {
+        "process": "/usr/libexec/gvfs-gphoto2-volume-monitor"
+    },
+    {
+        "process": "/usr/libexec/tracker-miner-fs-3"
+    },
+    {
+        "process": "/usr/libexec/ibus-engine-simple"
+    },
+    {
+        "process": "/usr/libexec/xdg-document-portal"
+    },
+    {
+        "process": "/usr/libexec/fwupd/fwupd"
+    },
+    {
+        "process": "/usr/share/code/chrome_crashpad_handler"
+    },
+    {
+        "process": "/usr/bin/zsh"
+    },
+    {
+        "process": "/sbin/init"
+    },
+    {
+        "process": "/usr/libexec/dconf-service"
+    },
+    {
+        "process": "/usr/bin/gjs"
+    },
+    {
+        "process": "/usr/lib/x86_64-linux-gnu/bamf/bamfdaemon"
+    },
+    {
+        "process": "/usr/libexec/flatpak-bwrap"
+    },
+    {
+        "process": "/usr/bin/nvidia-persistenced"
+    },
+    {
+        "process": "/usr/bin/gnome-shell"
+    },
+    {
+        "process": "/home/aditya/.steam/debian-installation/ubuntu12_32/steam"
+    },
+    {
+        "process": "/home/aditya/.steam/debian-installation/ubuntu12_64/steamwebhelper"
+    },
+    {
+        "process": "/usr/local/bin/ollama"
+    },
+    {
+        "process": "/usr/libexec/flatpak-session-helper"
+    },
+    {
+        "process": "/home/aditya/.steam/debian-installation/ubuntu12_64/steam-runtime-sniper/pressure-vessel/libexec/steam-runtime-tools-0/srt-bwrap"
+    },
+    {
+        "process": "/usr/libexec/gdm-x-session"
+    },
+    {
+        "process": "/usr/bin/touchegg"
+    }
+]
