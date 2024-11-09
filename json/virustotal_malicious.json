@@ -1,0 +1,1375 @@
+{
+    "data": {
+        "id": "630325cac09ac3fab908f903e3b00d0dadd5fdaa0875ed8496fcbb97a558d0da",
+        "type": "file",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/630325cac09ac3fab908f903e3b00d0dadd5fdaa0875ed8496fcbb97a558d0da"
+        },
+        "attributes": {
+            "creation_date": 1508639638,
+            "trid": [
+                {
+                    "file_type": "Microsoft Visual C++ compiled executable (generic)",
+                    "probability": 32.2
+                },
+                {
+                    "file_type": "Win64 Executable (generic)",
+                    "probability": 20.5
+                },
+                {
+                    "file_type": "Win32 Dynamic Link Library (generic)",
+                    "probability": 12.8
+                },
+                {
+                    "file_type": "Win16 NE executable (generic)",
+                    "probability": 9.8
+                },
+                {
+                    "file_type": "Win32 Executable (generic)",
+                    "probability": 8.7
+                }
+            ],
+            "last_analysis_stats": {
+                "malicious": 63,
+                "suspicious": 0,
+                "undetected": 10,
+                "harmless": 0,
+                "timeout": 0,
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "type-unsupported": 4
+            },
+            "unique_sources": 360,
+            "first_submission_date": 1508834515,
+            "last_analysis_results": {
+                "Bkav": {
+                    "method": "blacklist",
+                    "engine_name": "Bkav",
+                    "engine_version": "2.0.0.1",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "W32.RsRabND.Worm"
+                },
+                "Lionic": {
+                    "method": "blacklist",
+                    "engine_name": "Lionic",
+                    "engine_version": "7.5",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.BadRabbit.tp36"
+                },
+                "AVG": {
+                    "method": "blacklist",
+                    "engine_name": "AVG",
+                    "engine_version": "23.9.8494.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Win32:Malware-gen"
+                },
+                "Elastic": {
+                    "method": "blacklist",
+                    "engine_name": "Elastic",
+                    "engine_version": "4.0.144",
+                    "engine_update": "20240509",
+                    "category": "malicious",
+                    "result": "malicious (high confidence)"
+                },
+                "MicroWorld-eScan": {
+                    "method": "blacklist",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_version": "14.0.409.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit.A"
+                },
+                "CMC": {
+                    "method": "blacklist",
+                    "engine_name": "CMC",
+                    "engine_version": "2.4.2022.1",
+                    "engine_update": "20240513",
+                    "category": "undetected",
+                    "result": null
+                },
+                "CAT-QuickHeal": {
+                    "method": "blacklist",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_version": "22.00",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Mauvaise.SL1"
+                },
+                "Skyhigh": {
+                    "method": "blacklist",
+                    "engine_name": "Skyhigh",
+                    "engine_version": "v2021.2.0+4045",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Generic.adp"
+                },
+                "McAfee": {
+                    "method": "blacklist",
+                    "engine_name": "McAfee",
+                    "engine_version": "6.0.6.653",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Generic.adp"
+                },
+                "Malwarebytes": {
+                    "method": "blacklist",
+                    "engine_name": "Malwarebytes",
+                    "engine_version": "4.5.5.54",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom.BadRabbit"
+                },
+                "Zillya": {
+                    "method": "blacklist",
+                    "engine_name": "Zillya",
+                    "engine_version": "2.0.0.5111",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Gen.Win32.1539"
+                },
+                "Sangfor": {
+                    "method": "blacklist",
+                    "engine_name": "Sangfor",
+                    "engine_version": "2.23.0.0",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Suspicious.Win32.Save.a"
+                },
+                "CrowdStrike": {
+                    "method": "blacklist",
+                    "engine_name": "CrowdStrike",
+                    "engine_version": "1.0",
+                    "engine_update": "20231026",
+                    "category": "undetected",
+                    "result": null
+                },
+                "Alibaba": {
+                    "method": "blacklist",
+                    "engine_name": "Alibaba",
+                    "engine_version": "0.3.0.5",
+                    "engine_update": "20190527",
+                    "category": "malicious",
+                    "result": "Ransom:Win32/Agent.190220"
+                },
+                "K7GW": {
+                    "method": "blacklist",
+                    "engine_name": "K7GW",
+                    "engine_version": "12.158.51971",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan ( 0051a3031 )"
+                },
+                "K7AntiVirus": {
+                    "method": "blacklist",
+                    "engine_name": "K7AntiVirus",
+                    "engine_version": "12.158.51957",
+                    "engine_update": "20240510",
+                    "category": "malicious",
+                    "result": "Trojan ( 0051a3031 )"
+                },
+                "Baidu": {
+                    "method": "blacklist",
+                    "engine_name": "Baidu",
+                    "engine_version": "1.0.0.2",
+                    "engine_update": "20190318",
+                    "category": "malicious",
+                    "result": "Win32.Trojan.Ransom.b"
+                },
+                "VirIT": {
+                    "method": "blacklist",
+                    "engine_name": "VirIT",
+                    "engine_version": "9.5.700",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.BadRabbit.A"
+                },
+                "Symantec": {
+                    "method": "blacklist",
+                    "engine_name": "Symantec",
+                    "engine_version": "1.21.0.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom.BadRabbit"
+                },
+                "tehtris": {
+                    "method": "blacklist",
+                    "engine_name": "tehtris",
+                    "engine_version": "v0.1.4",
+                    "engine_update": "20240514",
+                    "category": "undetected",
+                    "result": null
+                },
+                "ESET-NOD32": {
+                    "method": "blacklist",
+                    "engine_name": "ESET-NOD32",
+                    "engine_version": "29222",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Win32/Diskcoder.D"
+                },
+                "Cynet": {
+                    "method": "blacklist",
+                    "engine_name": "Cynet",
+                    "engine_version": "4.0.1.1",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Malicious (score: 99)"
+                },
+                "APEX": {
+                    "method": "blacklist",
+                    "engine_name": "APEX",
+                    "engine_version": "6.531",
+                    "engine_update": "20240513",
+                    "category": "undetected",
+                    "result": null
+                },
+                "Paloalto": {
+                    "method": "blacklist",
+                    "engine_name": "Paloalto",
+                    "engine_version": "0.9.0.1003",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "generic.ml"
+                },
+                "ClamAV": {
+                    "method": "blacklist",
+                    "engine_name": "ClamAV",
+                    "engine_version": "1.3.1.0",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Win.Dropper.Diskcoder-6355411-0"
+                },
+                "Kaspersky": {
+                    "method": "blacklist",
+                    "engine_name": "Kaspersky",
+                    "engine_version": "22.0.1.28",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan-Ransom.Win32.BadRabbit.e"
+                },
+                "BitDefender": {
+                    "method": "blacklist",
+                    "engine_name": "BitDefender",
+                    "engine_version": "7.2",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit.A"
+                },
+                "NANO-Antivirus": {
+                    "method": "blacklist",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_version": "1.0.146.25796",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.BadRabbit.evwtjg"
+                },
+                "SUPERAntiSpyware": {
+                    "method": "blacklist",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_version": "5.6.0.1032",
+                    "engine_update": "20240514",
+                    "category": "undetected",
+                    "result": null
+                },
+                "Avast": {
+                    "method": "blacklist",
+                    "engine_name": "Avast",
+                    "engine_version": "23.9.8494.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Win32:Malware-gen"
+                },
+                "Tencent": {
+                    "method": "blacklist",
+                    "engine_name": "Tencent",
+                    "engine_version": "1.0.0.1",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Malware.Win32.Gencirc.10b6d41e"
+                },
+                "TACHYON": {
+                    "method": "blacklist",
+                    "engine_name": "TACHYON",
+                    "engine_version": "2024-05-14.01",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom/W32.BadRabbit.441899"
+                },
+                "Emsisoft": {
+                    "method": "blacklist",
+                    "engine_name": "Emsisoft",
+                    "engine_version": "2024.1.0.53752",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan-Ransom.BadRabbit (A)"
+                },
+                "F-Secure": {
+                    "method": "blacklist",
+                    "engine_name": "F-Secure",
+                    "engine_version": "18.10.1547.307",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan:W32/Rabbad.A"
+                },
+                "DrWeb": {
+                    "method": "blacklist",
+                    "engine_name": "DrWeb",
+                    "engine_version": "7.0.62.1180",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.BadRabbit.2"
+                },
+                "VIPRE": {
+                    "method": "blacklist",
+                    "engine_name": "VIPRE",
+                    "engine_version": "6.0.0.35",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit.A"
+                },
+                "TrendMicro": {
+                    "method": "blacklist",
+                    "engine_name": "TrendMicro",
+                    "engine_version": "11.0.0.1006",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom_BADRABBIT.A"
+                },
+                "Trapmine": {
+                    "method": "blacklist",
+                    "engine_name": "Trapmine",
+                    "engine_version": "4.0.16.96",
+                    "engine_update": "20240223",
+                    "category": "malicious",
+                    "result": "suspicious.low.ml.score"
+                },
+                "FireEye": {
+                    "method": "blacklist",
+                    "engine_name": "FireEye",
+                    "engine_version": "35.47.0.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit.A"
+                },
+                "Sophos": {
+                    "method": "blacklist",
+                    "engine_name": "Sophos",
+                    "engine_version": "2.5.5.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Troj/Ransom-ERK"
+                },
+                "Ikarus": {
+                    "method": "blacklist",
+                    "engine_name": "Ikarus",
+                    "engine_version": "6.3.12.0",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.Diskcoder"
+                },
+                "Jiangmin": {
+                    "method": "blacklist",
+                    "engine_name": "Jiangmin",
+                    "engine_version": "16.0.100",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "Trojan.BadRabbit.d"
+                },
+                "Webroot": {
+                    "method": "blacklist",
+                    "engine_name": "Webroot",
+                    "engine_version": "1.0.0.403",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "W32.Adware.Gen"
+                },
+                "Varist": {
+                    "method": "blacklist",
+                    "engine_name": "Varist",
+                    "engine_version": "6.5.1.2",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "W32/DiskCoder.A.gen!Eldorado"
+                },
+                "Avira": {
+                    "method": "blacklist",
+                    "engine_name": "Avira",
+                    "engine_version": "8.3.3.18",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "TR/Diskcoder.ezxim"
+                },
+                "Antiy-AVL": {
+                    "method": "blacklist",
+                    "engine_name": "Antiy-AVL",
+                    "engine_version": "3.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan/Win32.TSGeneric"
+                },
+                "Kingsoft": {
+                    "method": "blacklist",
+                    "engine_name": "Kingsoft",
+                    "engine_version": "None",
+                    "engine_update": "20230906",
+                    "category": "malicious",
+                    "result": "Win32.Troj.Blackmail.lc"
+                },
+                "Microsoft": {
+                    "method": "blacklist",
+                    "engine_name": "Microsoft",
+                    "engine_version": "1.1.24040.1",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom:Win32/Tibbar.A"
+                },
+                "Gridinsoft": {
+                    "method": "blacklist",
+                    "engine_name": "Gridinsoft",
+                    "engine_version": "1.0.175.174",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Malware.Win32.GenericMC.cc"
+                },
+                "Xcitium": {
+                    "method": "blacklist",
+                    "engine_name": "Xcitium",
+                    "engine_version": "36700",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Malware@#1khr9uloessgt"
+                },
+                "Arcabit": {
+                    "method": "blacklist",
+                    "engine_name": "Arcabit",
+                    "engine_version": "2022.0.0.18",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit.A"
+                },
+                "ViRobot": {
+                    "method": "blacklist",
+                    "engine_name": "ViRobot",
+                    "engine_version": "2014.3.20.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.S.Ransom.441899"
+                },
+                "ZoneAlarm": {
+                    "method": "blacklist",
+                    "engine_name": "ZoneAlarm",
+                    "engine_version": "1.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan-Ransom.Win32.BadRabbit.e"
+                },
+                "GData": {
+                    "method": "blacklist",
+                    "engine_name": "GData",
+                    "engine_version": "A:25.37983B:27.35988",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Win32.Trojan-Ransom.BadRabbit.C"
+                },
+                "Google": {
+                    "method": "blacklist",
+                    "engine_name": "Google",
+                    "engine_version": "1715664628",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Detected"
+                },
+                "AhnLab-V3": {
+                    "method": "blacklist",
+                    "engine_name": "AhnLab-V3",
+                    "engine_version": "3.25.1.10473",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan/Win32.Diskcoder.R211512"
+                },
+                "Acronis": {
+                    "method": "blacklist",
+                    "engine_name": "Acronis",
+                    "engine_version": "1.2.0.121",
+                    "engine_update": "20240328",
+                    "category": "undetected",
+                    "result": null
+                },
+                "VBA32": {
+                    "method": "blacklist",
+                    "engine_name": "VBA32",
+                    "engine_version": "5.0.0",
+                    "engine_update": "20240510",
+                    "category": "malicious",
+                    "result": "BScope.Trojan.BadRabbit"
+                },
+                "ALYac": {
+                    "method": "blacklist",
+                    "engine_name": "ALYac",
+                    "engine_version": "2.0.0.10",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Ransom.BadRabbit"
+                },
+                "MAX": {
+                    "method": "blacklist",
+                    "engine_name": "MAX",
+                    "engine_version": "2023.1.4.1",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "malware (ai score=100)"
+                },
+                "Cylance": {
+                    "method": "blacklist",
+                    "engine_name": "Cylance",
+                    "engine_version": "2.0.0.0",
+                    "engine_update": "20240502",
+                    "category": "malicious",
+                    "result": "unsafe"
+                },
+                "Panda": {
+                    "method": "blacklist",
+                    "engine_name": "Panda",
+                    "engine_version": "4.6.4.2",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "W32/Ransom.G.worm"
+                },
+                "TrendMicro-HouseCall": {
+                    "method": "blacklist",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_version": "10.0.0.1040",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom_BADRABBIT.A"
+                },
+                "Rising": {
+                    "method": "blacklist",
+                    "engine_name": "Rising",
+                    "engine_version": "25.0.0.27",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Ransom.DiskCoder!1.AE39 (CLASSIC)"
+                },
+                "Yandex": {
+                    "method": "blacklist",
+                    "engine_name": "Yandex",
+                    "engine_version": "5.5.2.24",
+                    "engine_update": "20240514",
+                    "category": "undetected",
+                    "result": null
+                },
+                "SentinelOne": {
+                    "method": "blacklist",
+                    "engine_name": "SentinelOne",
+                    "engine_version": "24.2.1.1",
+                    "engine_update": "20240417",
+                    "category": "undetected",
+                    "result": null
+                },
+                "MaxSecure": {
+                    "method": "blacklist",
+                    "engine_name": "MaxSecure",
+                    "engine_version": "1.0.0.1",
+                    "engine_update": "20240510",
+                    "category": "undetected",
+                    "result": null
+                },
+                "Fortinet": {
+                    "method": "blacklist",
+                    "engine_name": "Fortinet",
+                    "engine_version": "None",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "W32/Diskcoder.D!tr.ransom"
+                },
+                "BitDefenderTheta": {
+                    "method": "blacklist",
+                    "engine_name": "BitDefenderTheta",
+                    "engine_version": "7.2.37796.0",
+                    "engine_update": "20240422",
+                    "category": "malicious",
+                    "result": "Gen:NN.ZexaF.36804.Au3@aKppIcai"
+                },
+                "Zoner": {
+                    "method": "blacklist",
+                    "engine_name": "Zoner",
+                    "engine_version": "2.2.2.0",
+                    "engine_update": "20240514",
+                    "category": "malicious",
+                    "result": "Trojan.Win32.64391"
+                },
+                "Cybereason": {
+                    "method": "blacklist",
+                    "engine_name": "Cybereason",
+                    "engine_version": "1.2.449",
+                    "engine_update": "20240512",
+                    "category": "undetected",
+                    "result": null
+                },
+                "DeepInstinct": {
+                    "method": "blacklist",
+                    "engine_name": "DeepInstinct",
+                    "engine_version": "5.0.0.8",
+                    "engine_update": "20240509",
+                    "category": "malicious",
+                    "result": "MALICIOUS"
+                },
+                "alibabacloud": {
+                    "method": "blacklist",
+                    "engine_name": "alibabacloud",
+                    "engine_version": "2.1.0",
+                    "engine_update": "20240513",
+                    "category": "malicious",
+                    "result": "RansomWare"
+                },
+                "Trustlook": {
+                    "method": "blacklist",
+                    "engine_name": "Trustlook",
+                    "engine_version": "1.0",
+                    "engine_update": "20240514",
+                    "category": "type-unsupported",
+                    "result": null
+                },
+                "SymantecMobileInsight": {
+                    "method": "blacklist",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_version": "2.0",
+                    "engine_update": "20240103",
+                    "category": "type-unsupported",
+                    "result": null
+                },
+                "BitDefenderFalx": {
+                    "method": "blacklist",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_version": "2.0.936",
+                    "engine_update": "20240128",
+                    "category": "type-unsupported",
+                    "result": null
+                },
+                "Avast-Mobile": {
+                    "method": "blacklist",
+                    "engine_name": "Avast-Mobile",
+                    "engine_version": "240513-00",
+                    "engine_update": "20240513",
+                    "category": "type-unsupported",
+                    "result": null
+                }
+            },
+            "type_tag": "peexe",
+            "pe_info": {
+                "timestamp": 1508639638,
+                "imphash": "e3bda9df66f1f9b2b9b7b068518f2af1",
+                "machine_type": 332,
+                "entry_point": 4800,
+                "resource_details": [
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 156416.48,
+                        "filetype": "unknown",
+                        "entropy": 3.4845173358917236,
+                        "sha256": "86beb2d07f8b637c0f45a71281629473bd404fc093da8dec4a0e080166be2391",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 148483.88,
+                        "filetype": "unknown",
+                        "entropy": 3.0930416584014893,
+                        "sha256": "f51bd69eba483d1cfb22f6965c6d95a7d22716f35f7e66a534b4762ee29ac2d1",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 187382.39,
+                        "filetype": "unknown",
+                        "entropy": 2.148280382156372,
+                        "sha256": "2f3947fa9ed892c4fedf54593bf1ef2e8df56398713ade019e8f5d4dc46ec76b",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 159475.02,
+                        "filetype": "unknown",
+                        "entropy": 3.5832576751708984,
+                        "sha256": "cc1b4da932e33094d8d9471254a7f121b533c35858afca5e4c800d388d2f874f",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 418314.38,
+                        "filetype": "unknown",
+                        "entropy": 3.4390175342559814,
+                        "sha256": "64c609a915df0fd92f5bbbb15c26e7834992bd9279163d289fbbb6f7e1904c7c",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 33407.48,
+                        "filetype": "unknown",
+                        "entropy": 4.022954940795898,
+                        "sha256": "445fa8394cab840f67ee942cf9574f260131edc1a031643f0272fbf8aeed88a7",
+                        "type": "RT_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 7718.77,
+                        "filetype": "ICO",
+                        "entropy": 2.7178714275360107,
+                        "sha256": "b4a86ff543995d1a1dcad86ec767539180bbe55d27b306186eb5fa4bc3d5872f",
+                        "type": "RT_GROUP_ICON"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 85462.1,
+                        "filetype": "unknown",
+                        "entropy": 3.43361234664917,
+                        "sha256": "9cd4c522f14cb2804e76101a5b7c8755b314c3925babf9079ed66d90da3d8869",
+                        "type": "RT_VERSION"
+                    },
+                    {
+                        "lang": "ENGLISH US",
+                        "chi2": 3988.85,
+                        "filetype": "unknown",
+                        "entropy": 4.804144859313965,
+                        "sha256": "37a2c33d519bd2d27252e01b680aeeda62503b789bf0205706c30218f913239e",
+                        "type": "RT_MANIFEST"
+                    }
+                ],
+                "resource_langs": {
+                    "ENGLISH US": 10
+                },
+                "resource_types": {
+                    "RT_ICON": 7,
+                    "RT_MANIFEST": 1,
+                    "RT_VERSION": 1,
+                    "RT_GROUP_ICON": 1
+                },
+                "overlay": {
+                    "chi2": 1373.53,
+                    "filetype": "unknown",
+                    "entropy": 7.997501850128174,
+                    "offset": 56832,
+                    "md5": "829c177d1421b4ba42e8e205abd93f10",
+                    "size": 385067
+                },
+                "sections": [
+                    {
+                        "name": ".text",
+                        "chi2": 66812.19,
+                        "virtual_address": 4096,
+                        "entropy": 6.58,
+                        "raw_size": 12288,
+                        "flags": "rx",
+                        "virtual_size": 11987,
+                        "md5": "098c323b1a59bcf15c1feb8055e58931"
+                    },
+                    {
+                        "name": ".rdata",
+                        "chi2": 84042.11,
+                        "virtual_address": 16384,
+                        "entropy": 7.18,
+                        "raw_size": 12800,
+                        "flags": "r",
+                        "virtual_size": 12330,
+                        "md5": "9cc3629beb9d1f37932d860de2e3a4f5"
+                    },
+                    {
+                        "name": ".data",
+                        "chi2": 125997.0,
+                        "virtual_address": 32768,
+                        "entropy": 0.18,
+                        "raw_size": 512,
+                        "flags": "rw",
+                        "virtual_size": 828,
+                        "md5": "4e5d61b2bd73632f0225e39a2e2c5144"
+                    },
+                    {
+                        "name": ".rsrc",
+                        "chi2": 1124739.75,
+                        "virtual_address": 36864,
+                        "entropy": 4.2,
+                        "raw_size": 29184,
+                        "flags": "r",
+                        "virtual_size": 28808,
+                        "md5": "256c5e23a9ad8a276128f84017b2d79d"
+                    },
+                    {
+                        "name": ".reloc",
+                        "chi2": 100017.5,
+                        "virtual_address": 69632,
+                        "entropy": 3.29,
+                        "raw_size": 1024,
+                        "flags": "r",
+                        "virtual_size": 590,
+                        "md5": "26cd68101ade4e5f70ab3cd5f35e0ad5"
+                    }
+                ],
+                "compiler_product_versions": [
+                    "[ C ] VS2008 SP1 build 30729 count=3",
+                    "[ASM] VS2008 SP1 build 30729 count=2",
+                    "[ C ] VS2013 UPD5 build 40629 count=6",
+                    "[ASM] VS2013 UPD5 build 40629 count=1",
+                    "[IMP] VS2008 SP1 build 30729 count=9",
+                    "[---] Unmarked objects count=25",
+                    "[LNK] VS2010 SP1 build 40219 count=1",
+                    "id: 0xaf, version: 40219 count=1"
+                ],
+                "rich_pe_header_hash": "6374a5ae62c8b7dde6e026a293debd7f",
+                "import_list": [
+                    {
+                        "library_name": "KERNEL32.dll",
+                        "imported_functions": [
+                            "CloseHandle",
+                            "CreateFileW",
+                            "CreateProcessW",
+                            "ExitProcess",
+                            "GetCommandLineW",
+                            "GetCurrentProcess",
+                            "GetFileSize",
+                            "GetModuleFileNameW",
+                            "GetModuleHandleW",
+                            "GetProcessHeap",
+                            "GetSystemDirectoryW",
+                            "HeapAlloc",
+                            "HeapFree",
+                            "lstrcatW",
+                            "ReadFile",
+                            "SetUnhandledExceptionFilter",
+                            "TerminateProcess",
+                            "UnhandledExceptionFilter",
+                            "WriteFile"
+                        ]
+                    },
+                    {
+                        "library_name": "USER32.dll",
+                        "imported_functions": [
+                            "wsprintfW"
+                        ]
+                    },
+                    {
+                        "library_name": "SHELL32.dll",
+                        "imported_functions": [
+                            "CommandLineToArgvW"
+                        ]
+                    },
+                    {
+                        "library_name": "msvcrt.dll",
+                        "imported_functions": [
+                            "free",
+                            "malloc",
+                            "memcpy",
+                            "wcsstr"
+                        ]
+                    }
+                ]
+            },
+            "authentihash": "c9133016a3e5cfbfb1aa8b50d1160fa53573413d4f81f871054ec7396d5a8b17",
+            "last_submission_date": 1715670750,
+            "ssdeep": "12288:BHNTywFAvN86pLbqWRKHZKfErrZJyZ0yqsGO3XR63:vT56NbqWRwZaEr3yt2O3XR63",
+            "vhash": "045056657d15151az1304fz13z1fz",
+            "last_analysis_date": 1715670750,
+            "md5": "fbbdc39af1139aebba4da004475e8839",
+            "sha256": "630325cac09ac3fab908f903e3b00d0dadd5fdaa0875ed8496fcbb97a558d0da",
+            "reputation": -1525,
+            "total_votes": {
+                "harmless": 3,
+                "malicious": 80
+            },
+            "sha1": "de5c8d858e6e41da715dca1c019df0bfb92d32c0",
+            "crowdsourced_ids_results": [
+                {
+                    "rule_category": "Potentially Bad Traffic",
+                    "alert_severity": "low",
+                    "rule_msg": "TGI HUNT SMB Administrator Brute Force",
+                    "rule_raw": "alert smb any any -> $HOME_NET any (msg:\"TGI HUNT SMB Administrator Brute Force\"; flow:to_server,established; content:\"NTLMSSP|00|\"; content:\"A|00|d|00|m|00|i|00|n|00|i|00|s|00|t|00|r|00|a|00|t|00|o|00|r\"; distance:0; threshold:type both, track by_src, seconds 60, count 5; classtype:bad-unknown; sid:2610580; rev:1;)",
+                    "rule_url": "https://raw.githubusercontent.com/travisbgreen/hunting-rules/master/hunting.rules",
+                    "rule_source": "Travis Green: Threat hunting rules",
+                    "rule_id": "1:2610580"
+                }
+            ],
+            "type_description": "Win32 EXE",
+            "meaningful_name": "FlashUtil.exe",
+            "first_seen_itw_date": 1508867398,
+            "popular_threat_classification": {
+                "popular_threat_category": [
+                    {
+                        "count": 29,
+                        "value": "trojan"
+                    },
+                    {
+                        "count": 24,
+                        "value": "ransomware"
+                    },
+                    {
+                        "count": 2,
+                        "value": "worm"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 21,
+                        "value": "badrabbit"
+                    },
+                    {
+                        "count": 8,
+                        "value": "diskcoder"
+                    }
+                ],
+                "suggested_threat_label": "trojan.badrabbit/diskcoder"
+            },
+            "magic": "PE32 executable (console) Intel 80386, for MS Windows",
+            "times_submitted": 618,
+            "size": 441899,
+            "tags": [
+                "calls-wmi",
+                "service-scan",
+                "peexe",
+                "direct-cpu-clock-access",
+                "checks-cpu-name",
+                "detect-debug-environment",
+                "checks-disk-space",
+                "runtime-modules",
+                "executes-dropped-file",
+                "via-tor",
+                "invalid-signature",
+                "signed",
+                "overlay",
+                "long-sleeps",
+                "checks-user-input",
+                "checks-network-adapters"
+            ],
+            "type_tags": [
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "peexe"
+            ],
+            "detectiteasy": {
+                "filetype": "PE32",
+                "values": [
+                    {
+                        "info": "C",
+                        "version": "18.00.40629",
+                        "type": "Compiler",
+                        "name": "Microsoft Visual C/C++"
+                    },
+                    {
+                        "version": "10.00.40219",
+                        "type": "Linker",
+                        "name": "Microsoft Linker"
+                    },
+                    {
+                        "version": "2010",
+                        "type": "Tool",
+                        "name": "Visual Studio"
+                    }
+                ]
+            },
+            "sandbox_verdicts": {
+                "Yomi Hunter": {
+                    "category": "malicious",
+                    "sandbox_name": "Yomi Hunter",
+                    "malware_classification": [
+                        "MALWARE"
+                    ]
+                },
+                "Dr.Web vxCube": {
+                    "category": "malicious",
+                    "sandbox_name": "Dr.Web vxCube",
+                    "malware_classification": [
+                        "MALWARE",
+                        "RANSOM"
+                    ]
+                },
+                "DAS-Security Orcas": {
+                    "category": "malicious",
+                    "sandbox_name": "DAS-Security Orcas",
+                    "malware_classification": [
+                        "MALWARE"
+                    ]
+                },
+                "ReaQta-Hive": {
+                    "category": "malicious",
+                    "sandbox_name": "ReaQta-Hive",
+                    "malware_classification": [
+                        "MALWARE"
+                    ]
+                },
+                "Tencent HABO": {
+                    "category": "malicious",
+                    "sandbox_name": "Tencent HABO",
+                    "malware_classification": [
+                        "MALWARE",
+                        "EVADER",
+                        "RANSOM"
+                    ]
+                },
+                "C2AE": {
+                    "category": "undetected",
+                    "sandbox_name": "C2AE",
+                    "malware_classification": [
+                        "UNKNOWN_VERDICT"
+                    ]
+                },
+                "Lastline": {
+                    "category": "malicious",
+                    "sandbox_name": "Lastline",
+                    "malware_classification": [
+                        "MALWARE",
+                        "RANSOM"
+                    ]
+                },
+                "Zenbox": {
+                    "category": "malicious",
+                    "malware_classification": [
+                        "MALWARE",
+                        "RANSOM",
+                        "TROJAN",
+                        "EVADER"
+                    ],
+                    "sandbox_name": "Zenbox",
+                    "malware_names": [
+                        "Babuk"
+                    ],
+                    "confidence": 88
+                },
+                "CAPE Sandbox": {
+                    "category": "malicious",
+                    "malware_classification": [
+                        "MALWARE"
+                    ],
+                    "sandbox_name": "CAPE Sandbox",
+                    "malware_names": [
+                        "BadRabbit"
+                    ]
+                }
+            },
+            "crowdsourced_ids_stats": {
+                "high": 0,
+                "info": 0,
+                "medium": 0,
+                "low": 1
+            },
+            "tlsh": "T1199412426729EE92D1E1B8F84093E7CC4BB97B090FB991EF9D993485CC79B8319380D5",
+            "type_extension": "exe",
+            "names": [
+                "BadRabbit.exe",
+                "Uninstaller 27.0",
+                "FlashUtil.exe",
+                "Endermanch@BadRabbit.exe",
+                "BadRabbit (2).exe",
+                "BadRabbit (1).exe",
+                "630325cac09ac3fab908f903e3b00d0dadd5fdaa0875ed8496fcbb97a558d0da.exe",
+                "Bad Rabit.exe",
+                "install_flash_player.exe",
+                "de5c8d858e6e41da715dca1c019df0bfb92d32c0.bin",
+                "badrabbit.exe",
+                "Ransomware.BadRabbit.exe",
+                "BadRabbit",
+                "Trojan.Ransom.BadRabbit.exe",
+                "Endermanch@BadRabbit.bin",
+                "QIP online installer.exe"
+            ],
+            "crowdsourced_yara_results": [
+                {
+                    "description": "EternalRomance Exploit",
+                    "author": "kevoreilly",
+                    "ruleset_name": "EternalRomance",
+                    "rule_name": "EternalRomance",
+                    "ruleset_id": "00b3770a91",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "description": "Detects BadRabbit Ransomware",
+                    "author": "Florian Roth (Nextron Systems)",
+                    "ruleset_name": "crime_badrabbit",
+                    "rule_name": "BadRabbit_Gen",
+                    "ruleset_id": "000eaf24e5",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "description": "Bad Rabbit Ransomware",
+                    "author": "Christiaan Beek",
+                    "ruleset_name": "RANSOM_BadRabbit",
+                    "rule_name": "BadBunny",
+                    "ruleset_id": "001e1fdcf4",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/advanced-threat-research/Yara-Rules"
+                },
+                {
+                    "ruleset_id": "001e1fdcf4",
+                    "rule_name": "badrabbit_ransomware",
+                    "ruleset_name": "RANSOM_BadRabbit",
+                    "description": "Rule to detect Bad Rabbit Ransomware",
+                    "author": "Marc Rivero | McAfee ATR Team",
+                    "match_date": 1715725738,
+                    "source": "https://github.com/advanced-threat-research/Yara-Rules"
+                },
+                {
+                    "description": "mimikatz",
+                    "author": "Benjamin DELPY (gentilkiwi)",
+                    "ruleset_name": "gen_mimikatz",
+                    "rule_name": "mimikatz",
+                    "ruleset_id": "000f4d099b",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id": "006fbe881a",
+                    "rule_name": "BadRabbitInstaller",
+                    "ruleset_name": "RussianAPT",
+                    "match_in_subfile": true,
+                    "author": "Intezer Analyze",
+                    "source": "https://github.com/intezer/yara-rules"
+                },
+                {
+                    "description": "Detects new NotPetya Ransomware variant from June 2017",
+                    "author": "Florian Roth (Nextron Systems)",
+                    "ruleset_name": "crime_nopetya_jun17",
+                    "rule_name": "NotPetya_Ransomware_Jun17",
+                    "ruleset_id": "0003d87a2f",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "description": "Rule to detect Bad Rabbit Ransomware",
+                    "author": "Marc Rivero | McAfee ATR Team",
+                    "ruleset_name": "RANSOM_BadRabbit",
+                    "rule_name": "badrabbit_ransomware",
+                    "ruleset_id": "001e1fdcf4",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/advanced-threat-research/Yara-Rules"
+                },
+                {
+                    "description": "BadRabbit Payload",
+                    "author": "kevoreilly",
+                    "ruleset_name": "BadRabbit",
+                    "rule_name": "BadRabbit",
+                    "ruleset_id": "00bbfcaf25",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/kevoreilly/CAPEv2"
+                },
+                {
+                    "description": "Detects win.eternal_petya.",
+                    "author": "Felix Bilstein - yara-signator at cocacoding dot com",
+                    "ruleset_name": "win.eternal_petya_auto",
+                    "rule_name": "win_eternal_petya_auto",
+                    "ruleset_id": "00839ac278",
+                    "match_in_subfile": true,
+                    "source": "https://malpedia.caad.fkie.fraunhofer.de/"
+                },
+                {
+                    "ruleset_id": "006fbe881a",
+                    "rule_name": "BadRabbitInstaller",
+                    "ruleset_name": "RussianAPT",
+                    "author": "Intezer Analyze",
+                    "match_date": 1715725738,
+                    "source": "https://github.com/intezer/yara-rules"
+                },
+                {
+                    "description": "Detects executables containing anti-forensic artifcats of deletiing USN change journal. Observed in ransomware",
+                    "author": "ditekSHen",
+                    "ruleset_name": "indicator_suspicious",
+                    "rule_name": "INDICATOR_SUSPICIOUS_USNDeleteJournal",
+                    "ruleset_id": "00c3b8eb5d",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/ditekshen/detection"
+                },
+                {
+                    "description": "Auto-generated rule",
+                    "author": "Florian Roth (Nextron Systems)",
+                    "ruleset_name": "crime_badrabbit",
+                    "rule_name": "BadRabbit_Mimikatz_Comp",
+                    "ruleset_id": "000eaf24e5",
+                    "match_in_subfile": true,
+                    "source": "https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "ruleset_id": "000eaf24e5",
+                    "rule_name": "BadRabbit_Gen",
+                    "ruleset_name": "crime_badrabbit",
+                    "description": "Detects BadRabbit Ransomware",
+                    "author": "Florian Roth (Nextron Systems)",
+                    "match_date": 1715725738,
+                    "source": "https://github.com/Neo23x0/signature-base"
+                }
+            ],
+            "last_modification_date": 1716012309,
+            "signature_info": {
+                "product": "Adobe® Flash® Player Installer/Uninstaller",
+                "verified": "The digital signature of the object did not verify.",
+                "description": "Adobe® Flash® Player Installer/Uninstaller 27.0 r0",
+                "file version": "27,0,0,170",
+                "signing date": "11:54 PM 09/08/2017",
+                "x509": [
+                    {
+                        "valid usage": "Timestamp Signing",
+                        "thumbprint_sha256": "0625FEE1A80D7B897A9712249C2F55FF391D6661DBD8B87F9BE6F252D88CED95",
+                        "name": "Symantec Time Stamping Services CA - G2",
+                        "algorithm": "sha1RSA",
+                        "thumbprint_md5": "7BA369EE9ABD81E0FC7674E9709E151D",
+                        "valid from": "2012-12-21 00:00:00",
+                        "valid to": "2020-12-30 23:59:59",
+                        "serial number": "7E 93 EB FB 7C C6 4E 59 EA 4B 9A 77 D4 06 FC 3B",
+                        "cert issuer": "Thawte Timestamping CA",
+                        "thumbprint": "6C07453FFDDA08B83707C09B82FB3D15F35336B1"
+                    },
+                    {
+                        "valid usage": "ff",
+                        "thumbprint_sha256": "0374881C9B74D31F28DC580B0F2B9D2B14A97CE31CBEC2A05AEB377DCDDCC2B0",
+                        "name": "Symantec Time Stamping Services Signer - G4",
+                        "algorithm": "sha1RSA",
+                        "thumbprint_md5": "0832B65CC3E3A49BC381BA95E1B58737",
+                        "valid from": "2012-10-18 00:00:00",
+                        "valid to": "2020-12-29 23:59:59",
+                        "serial number": "0E CF F4 38 C8 FE BF 35 6E 04 D8 6A 98 1B 1A 50",
+                        "cert issuer": "Symantec Time Stamping Services CA - G2",
+                        "thumbprint": "65439929B67973EB192D6FF243E6767ADF0834E4"
+                    },
+                    {
+                        "valid usage": "Code Signing",
+                        "thumbprint_sha256": "C5E129D68BEF22CAF45A173328F33C244A3BDF3E959D8EC1F15DE556396247FA",
+                        "name": "Symantec Corporation",
+                        "algorithm": "sha1RSA",
+                        "thumbprint_md5": "015897C25450CE2E9CF3C42B623E4319",
+                        "valid from": "2016-12-16 00:00:00",
+                        "valid to": "2017-12-17 23:59:59",
+                        "serial number": "0E BF EA 68 D6 77 B3 E2 6C AB 41 C3 3F 3E 69 DE",
+                        "cert issuer": "VeriSign Class 3 Code Signing 2010 CA",
+                        "thumbprint": "AD96BB64BA36379D2E354660780C2067B81DA2E0"
+                    },
+                    {
+                        "valid usage": "Code Signing",
+                        "thumbprint_sha256": "ED10E493767E2637BD99D0DE0BB83DCB70BD7F3F129E20B5420854AD7A79FB24",
+                        "name": "Symantec Corporation",
+                        "algorithm": "sha256RSA",
+                        "thumbprint_md5": "3C659805A54E06EA432B24C82EC50490",
+                        "valid from": "2017-03-15 00:00:00",
+                        "valid to": "2018-04-13 23:59:59",
+                        "serial number": "2E 6B E6 BD 11 A8 67 6E 6C 57 90 9E 9B 0D 5F 57",
+                        "cert issuer": "Symantec Class 3 SHA256 Code Signing CA - G2",
+                        "thumbprint": "A9E2DA4375EC6FBFBFAB7C75FE76117745576CC0"
+                    },
+                    {
+                        "valid usage": "Code Signing",
+                        "thumbprint_sha256": "2042E38FC57388F1DB3222C7AB5BE11C6EDB7E454BF45487AE44FF2D6A2B7645",
+                        "name": "Symantec Class 3 SHA256 Code Signing CA - G2",
+                        "algorithm": "sha256RSA",
+                        "thumbprint_md5": "B902475B09775C591AC1D755380111B1",
+                        "valid from": "2014-07-22 00:00:00",
+                        "valid to": "2024-07-21 23:59:59",
+                        "serial number": "7C 1B 35 35 4A E7 DB 74 E7 41 5F 11 69 CA 6B A8",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "1392E4C7FF25B9517E931077BBE2664DC87EF70D"
+                    },
+                    {
+                        "valid usage": "Timestamp Signing",
+                        "thumbprint_sha256": "F3516DDCC8AFC808788BD8B0E840BDA2B5E23C6244252CA3000BB6C87170402A",
+                        "name": "Symantec SHA256 TimeStamping CA",
+                        "algorithm": "sha256RSA",
+                        "thumbprint_md5": "02981385E870CD8E9420FB54C1DFEF50",
+                        "valid from": "2016-01-12 00:00:00",
+                        "valid to": "2031-01-11 23:59:59",
+                        "serial number": "7B 05 B1 D4 49 68 51 44 F7 C9 89 D2 9C 19 9D 12",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "6FC9EDB5E00AB64151C1CDFCAC74AD2C7B7E3BE4"
+                    },
+                    {
+                        "valid usage": "ff",
+                        "thumbprint_sha256": "CF7AC17AD047ECD5FDC36822031B12D4EF078B6F2B4C5E6BA41F8FF2CF4BAD67",
+                        "name": "Symantec SHA256 TimeStamping Signer - G2",
+                        "algorithm": "sha256RSA",
+                        "thumbprint_md5": "74D4D663DD997B9CA9776A32F5BC4993",
+                        "valid from": "2017-01-02 00:00:00",
+                        "valid to": "2028-04-01 23:59:59",
+                        "serial number": "54 58 F2 AA D7 41 D6 44 BC 84 A9 7B A0 96 52 E6",
+                        "cert issuer": "Symantec SHA256 TimeStamping CA",
+                        "thumbprint": "625AEC3AE4EDA1D169C4EE909E85B3BBC61076D3"
+                    }
+                ],
+                "original name": "FlashUtil.exe",
+                "signers": "Symantec Corporation; Symantec Class 3 SHA256 Code Signing CA - G2; VeriSign Universal Root Certification Authority",
+                "counter signers details": [
+                    {
+                        "status": "Valid",
+                        "valid usage": "Timestamp Signing",
+                        "name": "Symantec SHA256 TimeStamping Signer - G2",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 01/02/2017",
+                        "valid to": "11:59 PM 04/01/2028",
+                        "serial number": "54 58 F2 AA D7 41 D6 44 BC 84 A9 7B A0 96 52 E6",
+                        "cert issuer": "Symantec SHA256 TimeStamping CA",
+                        "thumbprint": "625AEC3AE4EDA1D169C4EE909E85B3BBC61076D3"
+                    },
+                    {
+                        "status": "Valid",
+                        "valid usage": "Timestamp Signing",
+                        "name": "Symantec SHA256 TimeStamping CA",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 01/12/2016",
+                        "valid to": "11:59 PM 01/11/2031",
+                        "serial number": "7B 05 B1 D4 49 68 51 44 F7 C9 89 D2 9C 19 9D 12",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "6FC9EDB5E00AB64151C1CDFCAC74AD2C7B7E3BE4"
+                    },
+                    {
+                        "status": "Valid",
+                        "valid usage": "Client Auth, Code Signing, Email Protection, Server Auth, Timestamp Signing",
+                        "name": "VeriSign Universal Root Certification Authority",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 04/02/2008",
+                        "valid to": "11:59 PM 12/01/2037",
+                        "serial number": "40 1A C4 64 21 B3 13 21 03 0E BB E4 12 1A C5 1D",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "3679CA35668772304D30A5FB873B0FA77BB70D54"
+                    }
+                ],
+                "counter signers": "Symantec SHA256 TimeStamping Signer - G2; Symantec SHA256 TimeStamping CA; VeriSign Universal Root Certification Authority",
+                "internal name": "Adobe® Flash® Player Installer/Uninstaller 27.0",
+                "copyright": "Copyright © 1996-2017 Adobe Systems Incorporated",
+                "signers details": [
+                    {
+                        "status": "This certificate or one of the certificates in the certificate chain is not time valid.",
+                        "valid usage": "Code Signing",
+                        "name": "Symantec Corporation",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 03/15/2017",
+                        "valid to": "11:59 PM 04/13/2018",
+                        "serial number": "2E 6B E6 BD 11 A8 67 6E 6C 57 90 9E 9B 0D 5F 57",
+                        "cert issuer": "Symantec Class 3 SHA256 Code Signing CA - G2",
+                        "thumbprint": "A9E2DA4375EC6FBFBFAB7C75FE76117745576CC0"
+                    },
+                    {
+                        "status": "Valid",
+                        "valid usage": "Code Signing",
+                        "name": "Symantec Class 3 SHA256 Code Signing CA - G2",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 07/22/2014",
+                        "valid to": "11:59 PM 07/21/2024",
+                        "serial number": "7C 1B 35 35 4A E7 DB 74 E7 41 5F 11 69 CA 6B A8",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "1392E4C7FF25B9517E931077BBE2664DC87EF70D"
+                    },
+                    {
+                        "status": "Valid",
+                        "valid usage": "Client Auth, Code Signing, Email Protection, Server Auth, Timestamp Signing",
+                        "name": "VeriSign Universal Root Certification Authority",
+                        "algorithm": "sha256RSA",
+                        "valid from": "12:00 AM 04/02/2008",
+                        "valid to": "11:59 PM 12/01/2037",
+                        "serial number": "40 1A C4 64 21 B3 13 21 03 0E BB E4 12 1A C5 1D",
+                        "cert issuer": "VeriSign Universal Root Certification Authority",
+                        "thumbprint": "3679CA35668772304D30A5FB873B0FA77BB70D54"
+                    }
+                ]
+            }
+        }
+    }
+}

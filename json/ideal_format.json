@@ -1,0 +1,10 @@
+{
+    "config": [
+        {
+            "CONFIG": "test_config",
+            "COMMAND": "python runme.py -i -ns",
+            "FREQUENCY": "daily",
+            "TIME": "02:00"
+        }
+    ]
+}

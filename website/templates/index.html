@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .plot {
+            width: 32%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <div class="container">
+        <div class="plot">
+            <h2>Plot 1</h2>
+            <div id="plot1"></div>
+        </div>
+        <div class="plot">
+            <h2>Plot 2</h2>
+            <div id="plot2"></div>
+        </div>
+        <div class="plot">
+            <h2>Plot 3</h2>
+            <div id="plot3"></div>
+        </div>
+    </div>
+
+    <script>
+        function updatePlot(plotId, plotDiv) {
+            const eventSource = new EventSource(`/live_plot/${plotId}`);
+            eventSource.onmessage = function(event) {
+                plotDiv.innerHTML = event.data;
+            }
+        }
+
+        window.onload = function() {
+            updatePlot(1, document.getElementById('plot1'));
+            updatePlot(2, document.getElementById('plot2'));
+            updatePlot(3, document.getElementById('plot3'));
+        }
+    </script>
+</body>
+</html>
